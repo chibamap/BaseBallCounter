@@ -79,12 +79,11 @@
 		808E5CD119E36CC80039319D /* BaseBallCounter */ = {
 			isa = PBXGroup;
 			children = (
-				808E5CD419E36CC80039319D /* AppDelegate.swift */,
-				808E5CD919E36CC80039319D /* ViewController.swift */,
+				808E5CF719E36DCC0039319D /* swift */,
 				808E5CDB19E36CC80039319D /* Main.storyboard */,
-				808E5CDE19E36CC80039319D /* Images.xcassets */,
 				808E5CE019E36CC80039319D /* LaunchScreen.xib */,
-				808E5CD619E36CC80039319D /* BaseBallCounter.xcdatamodeld */,
+				808E5CDE19E36CC80039319D /* Images.xcassets */,
+				808E5CF819E36E500039319D /* res */,
 				808E5CD219E36CC80039319D /* Supporting Files */,
 			);
 			path = BaseBallCounter;
@@ -113,6 +112,23 @@
 				808E5CEC19E36CC80039319D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		808E5CF719E36DCC0039319D /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				808E5CD419E36CC80039319D /* AppDelegate.swift */,
+				808E5CD919E36CC80039319D /* ViewController.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		808E5CF819E36E500039319D /* res */ = {
+			isa = PBXGroup;
+			children = (
+				808E5CD619E36CC80039319D /* BaseBallCounter.xcdatamodeld */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,7 +443,8 @@
 				808E5CD719E36CC80039319D /* BaseBallCounter.xcdatamodel */,
 			);
 			currentVersion = 808E5CD719E36CC80039319D /* BaseBallCounter.xcdatamodel */;
-			path = BaseBallCounter.xcdatamodeld;
+			name = BaseBallCounter.xcdatamodeld;
+			path = ../BaseBallCounter.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
